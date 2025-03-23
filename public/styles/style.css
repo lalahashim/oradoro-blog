@@ -1,0 +1,153 @@
+body{
+    background-color: #FDFAF6;
+    color: #9F5255;
+    font-family: "Libre Baskerville"
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    color: #9F5255 !important;
+}
+
+h2 {
+    text-align: center;
+}
+
+.card {
+    background-color: #FDFAF6 !important;
+    color: #9F5255 !important;
+    border-color: #9F5255;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.post-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header .nav-link {
+    color: #9F5255 !important;
+}
+
+.border-bottom {
+    border-color: #9F5255 !important;
+}
+
+#footer {
+    background-color: #9F5255 !important;
+}
+
+footer .nav-link{
+    color: #FDFAF6 !important;
+}
+
+.comp {
+    color: #DCD7C9 !important;
+}
+
+footer .border-bottom {
+    border-color: #FDFAF6 !important;
+}
+
+.forum-container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #FDFAF6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.form-group {
+    margin: 10px 0;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #9F5255;
+    border-radius: 10px;
+}
+
+input:focus, input:hover, 
+textarea:focus, textarea:hover {
+    outline: none;
+    border-color: #9F5255;
+    box-shadow: 0 0 10px #DCD7C9;
+}
+
+.btn{
+    background-color: #9F5255 !important;
+    color: #FDFAF6 !important;
+    padding: 10px 15px !important;
+    border-color: #9F5255 !important;
+    border-radius: 10px !important;
+    cursor: pointer !important;
+}
+.btn:hover {
+    background-color: #FDFAF6 !important;
+    color: #9F5255 !important;
+    border-color: #9F5255 !important;
+}
+
+a.btn:active,
+a.btn:focus,
+button:active,
+button:focus {
+    background-color: #FDFAF6 !important;
+    color: #9F5255 !important;
+    border-color: #9F5255 !important;
+    outline: none !important;
+}
+
+#about-us{
+    font-size: 17px;
+    margin-left: 110px;
+    margin-right: 110px;
+    text-align: left;
+}
+
+.posts{
+    font-size: 17px;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+@media (max-width: 576px) {
+    #about-us{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .posts{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 1024px){
+    #about-us{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .posts{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px){
+    #about-us{
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    .posts{
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+}
